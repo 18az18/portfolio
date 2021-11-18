@@ -4,6 +4,7 @@
 
 public
 build
+server
 ### Node ###
 # Logs
 logs
