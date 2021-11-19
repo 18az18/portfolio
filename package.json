@@ -8,9 +8,8 @@
     "dev:build-server": "webpack --config webpack.server.js --mode=development --watch",
     "dev:server": "nodemon ./server",
     "dev": "npm-run-all --parallel build dev:*",
-    "prod": "npm run build && node build/bundle.js",
     "start": "node ./server/index.js",
-    "heroku-postbuild": "npm install && npm run prod"
+    "heroku-postbuild": "npm install && npm run build"
   },
   "author": "Tian Ji Liu",
   "license": "ISC",
