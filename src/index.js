@@ -5,7 +5,7 @@ import renderer from './renderer'
 
 const app = express();
 app.use(cors());
-app.use(express.static("./build"));
+app.use(express.static("./public"));
 
 app.get("*", (req, res) => {
     const content = renderer(req);
