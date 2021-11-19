@@ -2,9 +2,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/react,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=react,node
 
-public
-build
-server
+# public
+# build
 ### Node ###
 # Logs
 logs
