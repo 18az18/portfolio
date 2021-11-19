@@ -7,7 +7,7 @@ const config = {
   entry: "./src/client/index.jsx",
   output: {
     filename: "bundle.js",
-    path: path.resolve(__dirname, "public"),
+    path: path.resolve(__dirname, "build"),
   },
   plugins: [
     new webpack.DefinePlugin({
@@ -17,7 +17,6 @@ const config = {
   resolve: {
     extensions: [".js", ".jsx"],
   },
-  devtool: "eval-cheap-source-map"
 };
 
 module.exports = merge(baseConfig, config);

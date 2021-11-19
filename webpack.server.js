@@ -8,8 +8,8 @@ const config = {
   entry: "./src/index.js",
   target: "node",
   output: {
-    filename: "bundle.js",
-    path: path.resolve(__dirname, "build"),
+    filename: "index.js",
+    path: path.resolve(__dirname, "server"),
   },
   plugins: [
     new webpack.DefinePlugin({
